@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <!-- Header Section -->
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero" id="home">
+                <div class="hero-content">
+                    <h1>YALLAREDDYGARI SNEHALATHA</h1>
+                    <h4>Web Developer</h4>
+                </div>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="about-box">
+                <h2>About Me</h2>
+                <p>Hi, I'm YALLAREDDYGARI SNEHALATHA, an enthusiastic web developer with a passion for creating dynamic and responsive websites. As a recent graduate, I am eager to apply my skills and continue learning in the field of web development.</p>
+                <p>When I'm not coding, I enjoy dancing, listening to music, and practicing yoga. These activities help me stay balanced and inspire my creativity.</p>
+                <h3>Skills</h3>
+                <ul>
+                    <li><b>Programming skills:</b> C, Python, Java (basic)</li>
+                    <li><b>Web Development:</b> HTML, CSS, JavaScript, MySQL</li>
+                </ul>
+                <h3>Education</h3>
+                <div class="education-grid">
+                    <div class="education-item">
+                        <h4>Bachelor's Degree</h4>
+                        <p>Computer Science - Vignan University, Vadlamudi.</p>
+                        <p>2021-2025</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>Intermediate (Inter)</h4>
+                        <p>MPC - Narayana Junior College, Guntakal.</p>
+                        <p>2019-2021</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>Secondary Education</h4>
+                        <p>High School - Rotary High School, Guntakal.</p>
+                        <p>2018-2019</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2><center>Portfolio</center></h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <img src="https://static.javatpoint.com/tutorial/machine-learning/images/placement-prediction-using-machine-learning.jpg" height="100" width="200" alt="Project 1 Image">
+                    <div class="project-info">
+                        <h3>Optimizing Student Placement Prediction Using Ensemble Learning</h3>
+                        <p>In this project, we implemented various traditional machine learning models such as Logistic Regression, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), Decision Tree, and Naive Bayes on the Placement_data_full_class dataset. We then applied several ensemble algorithms, including Voting Classifier, Bagging, AdaBoost, Gradient Boosting, and XGBoost. By combining the basic models—Linear Regression, KNN, and SVM—which individually achieved an accuracy of 89%, we enhanced the performance through ensemble learning and achieved an improved accuracy of 91%.</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1e0Hi1bULAV0D5X31_FSPcPftH22PZ37Fzw&s" height="100" width="200" alt="Project 2 Image">
+                    <div class="project-info">
+                        <h3>An Intelligent System to Count Students in Large Classroom Using Deep Learning</h3>
+                        <p>In this project, we addressed the issue of accurately counting students in large classrooms manually, which may be prone to errors. The utilization of the YOLO v8 model for student head detection and counting has proven to be highly effective and efficient for our project. This advancement holds significant promise for applications in educational settings, allowing for improved monitoring of classroom attendance, engagement, and overall student presence.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2><center>Contact Me</center></h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 YALLAREDDYGARI SNEHALATHA. All rights reserved.</p>
+        <p>Contact me: +91 9392369069</p>
+        <p>Email: ysnehareddy24@gmail.com</p>
+    </footer>
+
+</body>
+</html>
